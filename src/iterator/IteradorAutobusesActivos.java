@@ -4,7 +4,7 @@ import model.Autobus;
 
 import java.util.List;
 
-public class IteradorAutobusesActivos {
+public class IteradorAutobusesActivos implements Iterador{
     private List<Autobus> autobuses;
     private int posicionActual = 0;
 
