@@ -2,7 +2,7 @@ package collection;
 
 import iterator.Iterador;
 
-public interface Colleccion {
+public interface Coleccion {
     Iterador crearIterador();
 
 }
